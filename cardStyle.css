@@ -45,6 +45,7 @@ nav ul a {
 	text-align: center;
 	color: white;
 	cursor: pointer;
+	margin-right: 50px;
 }
 
 /* .fa-plus-circle {
@@ -68,9 +69,10 @@ nav ul a {
 
 .article-card {
 	width: 320px;
-	margin: 30rem 0;
+	margin: 3rem 2rem;
 	display: flex;
 	flex-wrap: wrap;
+	flex-direction: column;
 	justify-content: space-between;
 }
 
@@ -215,4 +217,8 @@ text-align: center;
 background: #6C63FF;
 border-radius: 4px;
 color: #FFFFFF;
+}
+
+.top-head {
+	margin-left: 50px;
 }
